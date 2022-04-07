@@ -18,3 +18,5 @@ class Solution:
                 stack.append(ch)
 
         return not stack
+if __name__ == '__main__':
+    print(Solution().isValid("(())"))
