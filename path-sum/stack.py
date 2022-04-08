@@ -9,8 +9,8 @@ class TreeNode:
         self.right = right
 
 
-class solution:
-    def haspathsum(self, root: TreeNode, targetsum: int) -> bool:
+class Solution:
+    def pathSum(self, root: TreeNode, targetsum: int) -> bool:
         if not root:
             return False
 

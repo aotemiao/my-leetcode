@@ -10,7 +10,7 @@ class TreeNode:
 
 
 class Solution:
-    def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
+    def pathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
 
         def traversal(node: TreeNode, count: int) -> bool:
             count += node.val

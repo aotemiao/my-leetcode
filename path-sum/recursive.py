@@ -9,8 +9,8 @@ class TreeNode:
         self.right = right
 
 
-class solution:
-    def haspathsum(self, root: TreeNode, targetsum: int) -> bool:
+class Solution:
+    def pathSum(self, root: TreeNode, targetsum: int) -> bool:
         def isornot(root, targetsum) -> bool:
             if (not root.left) and (not root.right) and targetsum == 0:
                 return True  # 遇到叶子节点，并且计数为0
